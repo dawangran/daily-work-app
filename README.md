@@ -6,11 +6,11 @@ WorkPulse is a local-first macOS app for daily work tracking, project progress, 
 
 Download the DMG from this repository:
 
-- [WorkPulse-0.1.0-macos.dmg](WorkPulse-0.1.0-macos.dmg)
+- [WorkPulse-0.1.1-macos.dmg](WorkPulse-0.1.1-macos.dmg)
 
 ## Install
 
-1. Download `WorkPulse-0.1.0-macos.dmg`.
+1. Download `WorkPulse-0.1.1-macos.dmg`.
 2. Open the DMG.
 3. Drag `WorkPulse.app` to `Applications`.
 4. Launch WorkPulse from Launchpad or Finder.
@@ -26,6 +26,7 @@ This build is unsigned with an Apple Developer ID. On first launch, macOS may bl
 - Optional OpenAI-compatible AI review generation.
 - Chinese and English interface switching.
 - Local-first storage with no account or cloud sync.
+- Keychain access is limited to saving a new API key, testing the connection, clearing the key, or generating an AI review.
 
 ## Privacy
 

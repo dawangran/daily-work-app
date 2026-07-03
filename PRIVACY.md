@@ -10,6 +10,8 @@ Tasks, projects, reviews, language settings, and reminder settings are stored lo
 
 OpenAI-compatible API keys are stored in macOS Keychain. They are not stored in plain text inside the app bundle.
 
+WorkPulse checks whether a key exists for status display. It reads the key value only when saving a new key, testing the connection, clearing the key, or generating an AI review.
+
 ## AI Review
 
 AI review is optional. If the user configures an API key and clicks Generate in Reviews, WorkPulse sends only the selected review period's aggregated summary data to the configured provider.
